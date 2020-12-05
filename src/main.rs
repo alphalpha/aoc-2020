@@ -2,6 +2,7 @@ mod day_1;
 mod day_2;
 mod day_3;
 mod day_4;
+mod day_5;
 
 use std::fs::File;
 use std::io::BufRead;
@@ -18,4 +19,5 @@ fn main() {
     day_2::solve("data/aoc-2-passwords.txt");
     day_3::solve("data/aoc-3-trees.txt");
     day_4::solve("data/aoc-4-passports.txt");
+    day_5::solve("data/aoc-5-seats.txt");
 }
